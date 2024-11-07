@@ -13,7 +13,7 @@ find_package(urdf REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 
-install(DIRECTORY urdf meshes launch parameters config
+install(DIRECTORY urdf meshes launch config
   DESTINATION share/${PROJECT_NAME}
 )
 
